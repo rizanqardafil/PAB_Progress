@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HalamanRelative">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/txJudulRelative"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Relative Layout"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txJudulArtikel"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txJudulRelative"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Sejarah UII"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txArtikel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txJudulArtikel"
+            android:layout_centerHorizontal="true"
+            android:autoLink="web"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Universitas Islam Indonesia (UII) pada awalnya bernama Sekolah Tinggi Islam (STI), didirikan oleh beberapa tokoh nasional seperti Dr. Mohammad Hatta, KH. Abdulkahar Muzakkir, Moh. Roem, KH. A. Wahid Hasyim,KH. Mas Mansyur dan Moh. Natsir serta tokoh lainnya di Jakarta pada 8 Juli 1945. STI menjadi pendidikan tinggi nasional pertama di Indonesia yang kemudian berubah status menjadi universitas dan bernama Universitas Islam Indonesia pada 3 November 1947 sebagai respon keinginan dan kebutuhan untuk mengintegrasikan antara pengetahuan dan akhlak.
+
+Pada tahun akademik 2022/2023, UII memiliki 8 (delapan) Fakultas, dengan 4 (empat) program Diploma Tiga, 25 (dua puluh lima) program Sarjana, 3 (tiga) program Profesi, 13 (tiga belas) program Magister dan 5 (empat) program Doktor. UII telah terakreditasi institusi Unggul dan sebagian besar dari program studi di UII telah mendapat akreditasi Unggul dan A dari Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT). UII memiliki jumlah mahasiswa aktif lebih dari 23.000 mahasiswa dan telah memiliki lebih dari 107.551 alumni hingga tahun 2020.
+
+UII membangun Kampus Terpadu sejak tahun 1990 dengan lahan seluas 36 hektar di daerah sejuk di jalan Kaliurang km. 14,5. Di samping itu juga terdapat beberapa kampus di Kota Yogyakarta (Fakultas Bisnis dan Ekonomika di Condong Catur, Kampus Demangan di Jl. Demangan Baru No. 24 serta Fakultas Hukum di Jl. Taman Siswa No. 158 dan Jl. Cik di Tiro No. 1)."
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:id="@+id/bKembaliRelative"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txArtikel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="fMain"
+            android:text="Kembali"
+            />
+    </RelativeLayout>
+</ScrollView>

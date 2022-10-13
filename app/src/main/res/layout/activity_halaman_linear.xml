@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HalamanLinear"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvJudulLinear"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Linear Layout"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/tvPesanMasuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Pesan Diterima"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <Button
+            android:id="@+id/bTidak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_weight="1"
+            android:onClick="fTidak"
+            android:text="Tidak"
+            />
+
+        <Button
+            android:id="@+id/bYa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_weight="1"
+            android:onClick="fYa"
+            android:text="Ya"
+            />
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/bKembaliLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="fMain"
+        android:text="Kembali"
+        />
+
+
+
+</LinearLayout>
